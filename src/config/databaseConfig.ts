@@ -8,7 +8,7 @@ export const AppDataSource = new DataSource({
   port: 5432,
   username: "sujeet",
   password: "12345",
-  database: "myProject",
+  database: "myproject",
   entities: [User,],
   synchronize: true, // This option creates the database tables automatically (for development only)
 });

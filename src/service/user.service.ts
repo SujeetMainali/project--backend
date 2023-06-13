@@ -15,6 +15,12 @@ class UserService {
     });
     return await user.save();
   }
+
+  async getUsers(){
+    const user = this.userRepository.find()
+
+    return user
+  }
 }
 
 export default new UserService();
